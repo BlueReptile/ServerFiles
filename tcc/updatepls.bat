@@ -1,2 +1,1 @@
-@ECHO off
-git pull`
+git pull

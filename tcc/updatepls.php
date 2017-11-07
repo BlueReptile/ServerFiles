@@ -1,4 +1,6 @@
 <?php
-exec($file, $output);
-echo $output;
+$gotIt;
+$file = "updatepls.bat";
+exec( $file, $gotIt );
+echo implode("<br>",$gotIt);
 ?>
