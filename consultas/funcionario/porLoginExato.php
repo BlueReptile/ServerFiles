@@ -14,7 +14,7 @@
 			from funcionario
 			INNER JOIN func_func ON funcionario.Cd_Funcionario = func_func.Cd_Funcionario INNER JOIN funcao ON
 			func_func.Cd_Funcao = funcao.Cd_Funcao
-			WHERE funcionario.Email = "  ."'". $_GET["email"]."'" ;
+			where funcionario.Login = " . "'" . $_GET["login"] . "'";
 	
 	$result = mysqli_query($mysqli, $sql); //EXECUTA O COMANDO NO BD
 
