@@ -9,3 +9,4 @@ echo $host;
 echo "</br>";
 echo $ip;
 echo "</br>";
+echo getenv('HTTP_CLIENT_IP');
