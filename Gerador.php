@@ -47,7 +47,7 @@ $conn->close();
 
 $to = "$usermail";
 $subject = "Confirmação de E-mail";
-$txt = "Sua senha gerada é $old_pass" . '             Clique neste link para terminar seu cadastro ' . $link . ' caso tenha recebido multiplos emails apenas o ultimo é valido.';
+$txt = "Sua senha gerada é $old_pass" . '    Clique neste link para terminar seu cadastro ' . $link . '                                                     caso tenha recebido multiplos emails apenas o ultimo é valido.';
 $headers = "Confirme Seu E-mail!";
 
 require 'PHPMailerAutoload.php';
