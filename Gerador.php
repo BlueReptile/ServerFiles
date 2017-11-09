@@ -4,7 +4,7 @@ $senhaenc = base64_encode($senha);
 $senhaenc = $senhaenc . 'sPr';
 $usermail = $_GET['email'];
 //alteracao do link
-$localIP = $_SERVER['SERVER_ADDR'];
+$localIP = $_SERVER['SERVER_NAME']; 
 $link = "http://$localIP:4000/tcc/formulario.php?cx=$senhaenc";
 //fim alteracao do link
 // sql stuff
