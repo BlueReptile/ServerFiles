@@ -29,3 +29,7 @@ echo $_SERVER['HTTP_CLIENT_IP'];
 echo "</br>";
 echo gethostbyaddr($_SERVER["SERVER_ADDR"]);
 echo "</br>";
+
+foreach ($_SERVER as $key => $value) {
+ echo "$key = $value";
+}
