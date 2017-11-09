@@ -18,3 +18,14 @@ echo "agora começa a parte estranha da internet: </br>";
 echo $_SERVER['REMOTE_ADDR'];
 echo "</br>";
 echo $_SERVER["REMOTE_ADDR"];
+
+
+echo "COME ON BOI, LETS KILL DEEZ PLEBS!: </br>";
+echo $_SERVER['X_FORWARDED_FOR'];
+echo "</br>";
+echo $_SERVER['HTTP_X_FORWARDED_FOR'];
+echo "</br>";
+echo $_SERVER['HTTP_CLIENT_IP'];
+echo "</br>";
+echo gethostbyaddr($_SERVER["SERVER_ADDR"]);
+echo "</br>";
