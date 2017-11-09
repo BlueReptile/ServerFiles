@@ -4,7 +4,7 @@ echo "</br>";
 echo $_SERVER["REMOTE_ADDR"];
 echo "</br>";
 $host= gethostname();
-$ip = gethostbyname($host)
+$ip = gethostbyname($host);
 echo $host;
 echo "</br>";
 echo $ip;
