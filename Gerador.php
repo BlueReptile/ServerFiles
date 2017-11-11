@@ -62,8 +62,8 @@ $mail->Sendmail = 'C:\wamp64\sendmail\sendmail.exe -t';
 // optional
 // used only when SMTP requires authentication  
 $mail->SMTPAuth = true;
-$mail->Username = 'solowingphanzer@gmail.com';
-$mail->Password = 'Kalango321';
+$mail->Username = 'cadastro.rfid@gmail.com';
+$mail->Password = 'Farofa123';
 
 $mail->setFrom('solowingphanzer@gmail.com', 'Sistema de Cadastro');
 $mail->addAddress("$usermail", 'Ola');
